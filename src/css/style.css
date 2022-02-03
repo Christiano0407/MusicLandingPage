@@ -1,0 +1,84 @@
+/* = Components Page CSS */
+@import url("/src/css/components/landingMusic.css");
+/* = Root = */
+:root {
+  /*Colors*/
+  --clr-white: #fff;
+  --clr-black: #000;
+  --clr-ux1: #ab04d9;
+  --clr-ux2: #8303a6;
+  --clr-ux3: #ab05f2;
+  --clr-ux4: #0cf2b1;
+  --clr-ux5: #0d0d0d;
+  /*Fonts*/
+  --font-Adobe-bitcount: bitcount-mono-single-circle, sans-serif;
+  /*Margin*/
+  --margin-top: 2rem;
+  --margin-bottom: 2rem; 
+  /*Font Sizes*/
+  --font-title: 2.4rem; 
+  --font-tall: 1.8rem; 
+  --font-medium: 1.5rem; 
+  --font-small: 1.2rem: 
+  --font-very-small: .8rem; 
+
+  /*Padding*/
+  --padding: 1rem;
+  
+  /*Letter Spacing*/
+  --letter-spacing: .1rem; 
+  /*Text*/
+  --text-transform: uppercase; 
+}
+
+/* = CSS General Style =*/
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+/* = CSS Animation Responsive =*/
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  object-fit: cover;
+  background-position: center;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+p,
+span {
+  letter-spacing: 0.1rem;
+}
+h1 {
+  text-transform: uppercase;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background: #fff;
+  /* font-family: bitcount-mono-single-circle, sans-serif; */
+  /* font-weight: 400; */
+  /* font-style: normal; */
+  font-family: "Montserrat", sans-serif;
+  overflow: hidden;
+}
