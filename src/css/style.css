@@ -1,5 +1,8 @@
 /* = Components Page CSS */
 @import url("/src/css/components/landingMusic.css");
+@import url("/src/css/components/nav.css");
+@import url("/src/css/components/landingA.css");
+@import url("../css/components/landingB.css");
 /* = Root = */
 :root {
   /*Colors*/

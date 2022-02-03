@@ -31,7 +31,54 @@
     <title>Music LandinG Page | Abstract Web Site | Chris04.com</title>
   </head>
   <body>
-    <div class="landing"></div>
+    <div class="landing">
+      <!--Navigation-->
+      <nav class="landing__Navigation">
+        <section class="nav__music">
+          <div class="nav__music--logo">
+            <img
+              src="/src/assets/icon/record-vinyl-solid.svg"
+              class="logo-img"
+              alt="logo-music"
+              title="music-logo"
+            />
+          </div>
+          <div class="nav__music--letter">
+            <span>A</span>
+          </div>
+          <div class="nav__music--search">
+            <label for="search">Search</label>
+            <input
+              type="search"
+              id="search"
+              placeholder="Search..."
+              data-search
+            />
+            <a href="#"><i class="fas fa-search"></i></a>
+          </div>
+        </section>
+        <section class="nav__back">
+          <div class="back__nothing"></div>
+          <div class="back__user">
+            <img
+              src="/src/assets/img/userProfile.jpg"
+              alt="user-img"
+              title="user-Img"
+            />
+          </div>
+        </section>
+      </nav>
+      <!--Section A-->
+      <section class="landing__A">
+        <div class="landing__A-text">
+          <i class="fas fa-angle-double-left"></i>
+          <p>Abstract</p>
+        </div>
+        <div class="landing__A-music"></div>
+      </section>
+      <!--Section B-->
+      <section class="landing__B"></section>
+    </div>
     <!--Frameworks  Javascript-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
     <!--Javascript-->
