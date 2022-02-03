@@ -1,0 +1,23 @@
+{
+  "name": "musiclandingpage",
+  "version": "1.0.0",
+  "description": "Create One Music Landing page using Frameworks on Javascript and Vanilla Javascript.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Christiano0407/MusicLandingPage.git"
+  },
+  "keywords": [
+    "javascript",
+    "music"
+  ],
+  "author": "Chris04",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Christiano0407/MusicLandingPage/issues"
+  },
+  "homepage": "https://github.com/Christiano0407/MusicLandingPage#readme"
+}
