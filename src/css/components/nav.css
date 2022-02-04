@@ -1,7 +1,7 @@
 .landing__Navigation {
   width: 100%;
   width: 100%;
-  border: 2px solid blueviolet;
+  /*  border: 2px solid blueviolet; */
   grid-area: musicNav;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -71,7 +71,7 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  background-image: url("/src/assets/img/back3.jpg");
+  background-image: url("/src/assets/img/add3.jpg");
   object-fit: cover;
   background-position: center;
   background-size: cover;
