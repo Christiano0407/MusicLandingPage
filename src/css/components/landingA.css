@@ -176,3 +176,12 @@
   color: #000;
   border-radius: 50%;
 }
+.btn-ctn,
+.info-ctn {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.info-ctn {
+  padding-top: 2rem;
+}
