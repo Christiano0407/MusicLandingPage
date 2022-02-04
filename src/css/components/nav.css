@@ -71,11 +71,11 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  /* background-image: url("/src/assets/img/back3.jpg"); */
-  /* object-fit: cover; */
-  /* background-position: center; */
-  /* background-size: cover; */
-  /* background-repeat: no-repeat; */
+  background-image: url("/src/assets/img/back3.jpg");
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .nav__back .back__user {
   width: 30px;
