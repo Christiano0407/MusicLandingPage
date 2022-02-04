@@ -91,7 +91,7 @@
   align-items: center;
 }
 .music__top .music__top-img {
-  width: 8rem;
+  width: 12rem;
   height: 8rem;
   border-radius: 2rem;
   border: none;
@@ -162,4 +162,17 @@
   height: 5px;
   background-color: #ab04d9;
   border-radius: 10px;
+}
+.btn-action {
+  cursor: pointer;
+  padding: 1rem;
+  width: 3rem;
+  height: 3rem;
+  background-color: #0cf2b1;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  border-radius: 50%;
 }
