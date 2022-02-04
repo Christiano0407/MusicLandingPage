@@ -168,13 +168,22 @@
   padding: 1rem;
   width: 3rem;
   height: 3rem;
-  background-color: #0cf2b1;
+  /* background-color: #0cf2b1; */
   outline: none;
   display: flex;
   justify-content: center;
   align-items: center;
   color: #000;
   border-radius: 50%;
+  background: rgba(12, 242, 177, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  /* border-radius: 10px; */
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.btn-action:active {
+  transform: scale(0.9);
 }
 .btn-ctn,
 .info-ctn {
@@ -184,4 +193,23 @@
 }
 .info-ctn {
   padding-top: 2rem;
+}
+
+.btn-mute {
+  cursor: pointer;
+  padding: 1rem;
+  width: 3rem;
+  height: 3rem;
+  /* background-color: #0cf2b1; */
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  border-radius: 50%;
+  border: 2px solid #0d0d0d;
+  background: transparent;
+}
+.btn-mute:active {
+  transform: scale(0.9);
 }
