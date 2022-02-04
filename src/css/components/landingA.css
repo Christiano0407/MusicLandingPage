@@ -194,6 +194,27 @@
 .info-ctn {
   padding-top: 2rem;
 }
+.btn-ctn > div {
+  padding: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+.info-ctn > {
+  margin-bottom: .8rem;
+  color: ; #ab04d9; 
+}
+
+.first-btn {
+  margin-left: .3rem;
+}
+.duration {
+  margin-left: 1rem;
+}
+.title {
+  margin-left: 1rem;
+  width: 210px;
+  text-align: center;
+}
 
 .btn-mute {
   cursor: pointer;
