@@ -26,9 +26,11 @@
   position: relative;
   font-size: 3rem;
   top: 10rem;
-  right: 10rem;
+  right: 8rem;
+  color: #000;
+  opacity: 0.5;
 }
-.landing__A-text p {
+.landing__A-text .text-effect {
   font-size: 12rem;
   font-weight: 900;
   position: relative;
@@ -36,6 +38,18 @@
   top: 0;
   left: 25rem;
   /* font-family: var(--font-Adobe-bitcount); */
+  color: transparent;
+  text-transform: uppercase;
+  background-image: url("/src/assets/img/back3.jpg");
+  background-size: cover;
+  object-fit: cover;
+  /* background-position-y: 700px; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+
+  -webkit-text-fill-color: transparent;
 }
 
 /*Landing Music */
